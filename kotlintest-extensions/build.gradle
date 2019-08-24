@@ -19,6 +19,7 @@ kotlin {
                 implementation project(':kotlintest-core')
                 implementation kotlin('stdlib-jdk8')
                 implementation 'commons-io:commons-io:2.6'
+                implementation "io.mockk:mockk:$mockkVersion" // used to mock out the clocks
             }
         }
 
